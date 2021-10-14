@@ -97,8 +97,18 @@ a:hover, a:hover::before {
     border-radius: inherit;
 }
 
-.articulos h3, .articulos p {
-    margin: 0 0 1rem 0;
+.articulos h3 {
+    margin: 1rem 0;
+}
+
+.articulos p {
+    margin: 0;
+    margin-top: 1rem;
+}
+
+h3 {
+    font-weight: 500;
+    line-height: 1;
 }
 
 .articulos a {
